@@ -7,10 +7,13 @@ public class HelloWord {
 		System.out.println("hello word");
 		int a = 10;
 		int b = 20;
-		System.out.println(a+b);
-		System.out.println(a-b);
-		System.out.println(a*b);
-		System.out.println(a/b);
-		System.out.println(a%b);
+		System.out.println(a + b);
+		System.out.println(a - b);
+		System.out.println(a * b);
+		System.out.println(a / b);
+		System.out.println(a % b);
+		for (int j = 1; j <= 10; j++) {
+			System.out.println(j);
+		}
 	}
 }
