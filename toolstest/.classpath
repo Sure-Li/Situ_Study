@@ -5,5 +5,8 @@
 	<classpathentry kind="lib" path="src/com/situ/commons-beanutils-1.8.3.jar"/>
 	<classpathentry kind="lib" path="src/com/situ/commons-logging-1.1.1.jar"/>
 	<classpathentry kind="lib" path="src/itcast-tools-1.4.jar"/>
+	<classpathentry kind="lib" path="src/com/situ/c3p0-0.9.2-pre1.jar"/>
+	<classpathentry kind="lib" path="src/com/situ/mysql-connector-java-5.1.28-bin.jar"/>
+	<classpathentry kind="lib" path="src/com/situ/mchange-commons-java-0.2.12.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
