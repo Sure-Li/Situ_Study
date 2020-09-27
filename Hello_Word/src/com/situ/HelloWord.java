@@ -30,10 +30,20 @@ public class HelloWord {
 			for (int j = num; j > i; j--) {
 				System.out.print(" ");
 			}
-			for (int k = (i*2+1); k > 0; k--) {
+			for (int k = (i * 2 + 1); k > 0; k--) {
 				System.out.print("*");
 			}
 			System.out.println();
 		}
+		for (int i = num; i >= 0; i--) {
+			for (int j = num; j > i; j--) {
+				System.out.print(" ");
+			}
+			for (int k = (i * 2 + 1); k > 0; k--) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		sc.close();
 	}
 }
