@@ -20,15 +20,15 @@ public class JdbcUtilsTest {
 		Connection con = JdbcUtils.getConnection();
 		System.out.println(con);
 		JdbcUtils.releaseConnection(con);
-		System.out.println(con.isClosed());	
+		System.out.println(con.isClosed());
 		System.out.println("jieshu");
+
 	}
 
 	public static void main(String[] args) {
 		try {
 			testGetConnection();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
