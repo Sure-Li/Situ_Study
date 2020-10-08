@@ -6,8 +6,7 @@ public class Atm {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		while(true)
-		{
+		while (true) {
 			System.out.println("请按照下列提示选择您需要的功能：");
 			System.out.println("1.开卡    2.查询余额    3.转账    0.退出");
 			int chooseNum = sc.nextInt();
@@ -29,10 +28,10 @@ public class Atm {
 				System.out.println("退出成功");
 				break;
 			default:
-				System.out.println("您输入的不正确，请重新输入");
+				System.out.println("选择错误");
 				break;
 			}
-			if(0 == chooseNum) {
+			if (0 == chooseNum) {
 				break;
 			}
 		}
